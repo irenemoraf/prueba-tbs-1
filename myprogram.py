@@ -6,10 +6,11 @@ class Clase():
     profesor = None 
     asignaturas = None 
 
-    def __init__(self, notas, curso, colegio):
-        self.notas = notas
-        self.curso = curso 
-        self.colegio = colegio
+    def __init__(self, alumnos, aula, profesor, asignaturas):
+        self.alumnos = alumnos
+        self.aula = aula
+        self.profesor = profesor
+        self.asignaturas = asignaturas
 
 
     def add_alumno(self):

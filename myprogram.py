@@ -22,9 +22,8 @@ class Clase():
         # Carmen
         pass
 
-    def add_asignatura(self):
-        # Carlos
-        pass
+    def add_asignatura(self,asignatura):
+        self.asignaturas.append(asignatura)
 
     def change_aula(self):
         # Ariadna

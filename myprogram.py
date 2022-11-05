@@ -22,7 +22,7 @@ class Clase():
 
     
     def change_professor(self, profesor):
-        self.profesor = profesor
+        self.profesor = profesor.capitalize()
 
 
     def remove_alumno(self,alumnos):

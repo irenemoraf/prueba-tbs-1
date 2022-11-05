@@ -6,28 +6,39 @@ class Clase():
     profesor = None 
     asignaturas = None 
 
-    def __init__(self):
-        #Irene
-        pass
+    def __init__(self, alumnos, aula, profesor, asignaturas):
+        self.alumnos = alumnos
+        self.aula = aula
+        self.profesor = profesor
+        self.asignaturas = asignaturas
 
-    def add_alumno(self):
-        # Juan
-        pass
+
+    def add_alumno(self, alumno):
+         # Juan
+        '''
+        Añade un alumno al listado existente.
+        '''
+        self.alumnos.append(alumno)
+
     
-    def change_professor(self):
-        # Adrian
-        pass
+    def change_professor(self, profesor):
+        self.profesor = profesor
 
-    def remove_alumno(self):
+        # Adrian
+
+    def remove_alumno(self,alumno):
+
+        self.alumno.remove(alumno)
         # Carmen
-        pass
+        return self.alumno
 
     def add_asignatura(self,asignatura):
         self.asignaturas.append(asignatura)
 
-    def change_aula(self):
-        # Ariadna
-        pass
+    def change_aula(self,mi_aula):
+       self.aula = mi_aula
+       return mi_aula
+        
 
 c1 = Clase()
 print(f'Alumnos: {c1.alumnos}')

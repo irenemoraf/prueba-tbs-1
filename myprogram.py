@@ -27,9 +27,9 @@ class Clase():
         # Adrian
 
     def remove_alumno(self,alumnos):
-        self.alumno.remove(alumnos)
+        self.alumnos.remove(alumnos)
         # Carmen
-        return self.alumno
+        return self.alumnos
 
     def add_asignatura(self,asignatura):
         self.asignaturas.append(asignatura)

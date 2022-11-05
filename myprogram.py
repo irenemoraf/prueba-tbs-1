@@ -14,9 +14,9 @@ class Clase():
         # Juan
         pass
     
-    def change_professor(self):
+    def change_professor(self, profesor):
+        self.profesor = profesor
         # Adrian
-        pass
 
     def remove_alumno(self):
         # Carmen

@@ -21,10 +21,10 @@ class Clase():
         self.alumnos.append(alumno)
 
     
-    def change_professor(self):
-    
+    def change_professor(self, profesor):
+        self.profesor = profesor
+
         # Adrian
-        pass
 
     def remove_alumno(self,alumno):
 

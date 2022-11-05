@@ -22,12 +22,15 @@ class Clase():
 
     
     def change_professor(self):
+    
         # Adrian
         pass
 
-    def remove_alumno(self):
+    def remove_alumno(self,alumno):
+
+        self.alumno.remove(alumno)
         # Carmen
-        pass
+        return self.alumno
 
     def add_asignatura(self,asignatura):
         self.asignaturas.append(asignatura)

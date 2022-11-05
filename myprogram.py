@@ -13,9 +13,13 @@ class Clase():
         self.asignaturas = asignaturas
 
 
-    def add_alumno(self):
-        # Juan
-        pass
+    def add_alumno(self, alumno):
+         # Juan
+        '''
+        Añade un alumno al listado existente.
+        '''
+        self.alumnos.append(alumno)
+
     
     def change_professor(self):
         # Adrian

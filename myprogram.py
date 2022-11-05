@@ -26,6 +26,7 @@ class Clase():
         # Carlos
         pass
 
-    def change_aula(self):
-        # Ariadna
-        pass
+    def change_aula(self,mi_aula):
+       self.aula = mi_aula
+       return mi_aula
+        

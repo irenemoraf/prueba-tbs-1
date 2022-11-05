@@ -6,9 +6,12 @@ class Clase():
     profesor = None 
     asignaturas = None 
 
-    def __init__(self):
-        #Irene
-        pass
+    def __init__(self, alumnos, aula, profesor, asignaturas):
+        self.alumnos = alumnos
+        self.aula = aula
+        self.profesor = profesor
+        self.asignaturas = asignaturas
+
 
     def add_alumno(self):
         # Juan
